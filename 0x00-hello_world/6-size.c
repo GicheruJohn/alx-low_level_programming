@@ -2,10 +2,10 @@
 /**
  * main - program entry point
  *
- * description - prints the size of various types on the 
+ * description - prints the size of various types on the
  * computer it is compiled and run on
  *
- * return - always 0
+ * Return: Always 0
  */
 int main(void)
 {
