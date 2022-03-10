@@ -1,18 +1,14 @@
-/**
- * the program prints programming is like building a multilingual puzzle
- */
 #include <stdio.h>
+
 /**
- * int main(void) - entry of my program
+ * main - entry point
+ *
+ * description: prints "Programming is like building a multilingual puzzle"
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-/**
- * puts(string) - prints the words inside the brackets
- */
 	puts("\"Programming is like building a multilingual puzzle");
-/**
- * returns the value o
- */
 	return (0);
 }
