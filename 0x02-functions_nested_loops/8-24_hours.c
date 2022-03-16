@@ -14,7 +14,7 @@ void jack_bauer(void)
 		M = 0;
 		if (M < 60)
 		{
-			_putchar(H":"M);
+			_putchar(H':'M);
 		}
 		M++;
 	}
