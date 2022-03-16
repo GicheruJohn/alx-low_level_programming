@@ -6,19 +6,23 @@
  */
 void jack_bauer(void)
 {
-	int H, M;
+	int a, b, c, d;
 
-	H = 0;
-	while (H < 24)
+	for (a = 0; a < 3; a++)
 	{
-		M = 0;
-		if (M < 60)
+		for (b = 0; b < 4; b++)
 		{
-			_putchar(H);
-			_putchar(':');
-			_putchar(M);
+			for (c = 0; c < 6; c++)
+			{
+				for (d = 0; d <= 9; d++)
+				{
+					_putchar(a);
+					_putchar(b);
+					_putchar(':');
+					_putchar(c);
+					_putchar(d);
+				}
+			}
 		}
-		M++;
 	}
-	H++;
 }
