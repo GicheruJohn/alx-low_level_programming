@@ -4,12 +4,12 @@
  *
  * @n: integer input
  *
- * Return: always 0
+ * Return: absolute value of input n
  */
 int _abs(int n)
 {
 	if (n >= 0)
-		_putchar(n);
+		return (n);
 	else
-		_putchar(n * -1);
+		return (n * -1);
 }
